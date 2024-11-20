@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
  "allow_rename": 1,
  "autoname": "field:article_name",
  "creation": "2024-11-19 10:16:33.039444",
@@ -16,7 +17,8 @@
   "section_break_zzcj",
   "description",
   "tab_2_tab",
-  "route"
+  "route",
+  "published"
  ],
  "fields": [
   {
@@ -75,12 +77,20 @@
    "fieldname": "route",
    "fieldtype": "Data",
    "label": "Route"
+  },
+  {
+   "default": "0",
+   "fieldname": "published",
+   "fieldtype": "Check",
+   "label": "Published"
   }
  ],
+ "has_web_view": 1,
  "image_field": "image",
  "index_web_pages_for_search": 1,
+ "is_published_field": "published",
  "links": [],
- "modified": "2024-11-19 12:33:17.212768",
+ "modified": "2024-11-20 13:27:21.083703",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
@@ -121,6 +131,7 @@
    "share": 1
   }
  ],
+ "route": "articles",
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": []
