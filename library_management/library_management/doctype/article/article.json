@@ -9,11 +9,12 @@
  "field_order": [
   "article_name",
   "image",
-  "status",
   "author",
+  "column_break_tpox",
   "isbn",
-  "column_break_brvl",
+  "status",
   "publisher",
+  "get_issued_count",
   "section_break_zzcj",
   "description",
   "tab_2_tab",
@@ -61,10 +62,6 @@
    "label": "Publisher"
   },
   {
-   "fieldname": "column_break_brvl",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "section_break_zzcj",
    "fieldtype": "Section Break"
   },
@@ -83,6 +80,15 @@
    "fieldname": "published",
    "fieldtype": "Check",
    "label": "Published"
+  },
+  {
+   "fieldname": "column_break_tpox",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "get_issued_count",
+   "fieldtype": "Button",
+   "label": "Get Issued Count"
   }
  ],
  "has_web_view": 1,
@@ -90,7 +96,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
  "links": [],
- "modified": "2024-11-20 13:27:21.083703",
+ "modified": "2024-11-20 19:17:22.291625",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
